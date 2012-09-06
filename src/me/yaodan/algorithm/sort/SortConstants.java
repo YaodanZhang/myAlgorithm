@@ -16,12 +16,12 @@ public final class SortConstants {
 	/**
 	 * int型数组中元素的最大值。注意，不能被设置成Integer.MAX_VALUE，最大值的integer要用在程序中。
 	 */
-	public static final int ARRAY_ELEMENT_INT_MAX = 100000;
+	public static final int ARRAY_ELEMENT_INT_MAX = 1000000000;
 
 	/**
 	 * 数组长度
 	 */
-	public static final int ARRAY_LENGTH = 2000;
+	public static final int ARRAY_LENGTH = 10000000;
 
 	/**
 	 * int型数组，长度为{@linkplain #ARRAY_LENGTH}
@@ -42,4 +42,5 @@ public final class SortConstants {
 				ARRAY_LENGTH);
 		Arrays.sort(STANDARD_SORTED_INT_ARRAY);
 	}
+
 }
